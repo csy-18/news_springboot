@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27079cb9-4645-4061-bd42-4da9d27b0d5c" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/config/Swagger3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/config/UploadFileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/config/UploadFilePathConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/util/AESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/util/AccountGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/util/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/controller/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/controller/NewsSubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/controller/NewsTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/news/NewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/news/NewsSubjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/news/NewsTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/FieldFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/news/InsertNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/news/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/news/NewsSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/news/NewsType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/user/RegisterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/user/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/user/UpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/handler/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/sans_security.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/SpringBootSecurityDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/InformationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/common/config/JWTConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/config/JWTConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/common/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/common/util/JWTTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/util/JWTTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/common/util/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/util/ResultUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/common/util/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/common/util/SecurityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/dao/SysMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/user/SysMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/dao/SysRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/user/SysRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/dao/SysRoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/user/SysRoleMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/dao/SysUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/user/SysUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/dao/SysUserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/dao/user/SysUserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/entity/SysMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/user/SysMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/entity/SysRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/user/SysRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/entity/SysRoleMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/user/SysRoleMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/entity/SysUserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/entity/SysUserRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/entity/user/SysUserRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/SysRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/SysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/SysUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/core/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/core/service/user/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/UserAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/UserAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/UserPermissionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/UserPermissionEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/entity/SelfUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/entity/SelfUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/handler/UserAuthAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/handler/UserAuthAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/handler/UserAuthenticationEntryPointHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/handler/UserAuthenticationEntryPointHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/handler/UserLoginFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/handler/UserLoginFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/handler/UserLoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/handler/UserLoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/handler/UserLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/handler/UserLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/jwt/JWTAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/jwt/JWTAuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sans/security/service/SelfUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sychen/informationapp/security/service/SelfUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysMenuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMenuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysUserRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sans/SpringBootSecurityDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sychen/informationapp/InformationApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTTP Private Environment File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vP3lZBUzFSutfqdQFbqDMAiqLe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-daily" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.16106445" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GithubSpace\java\spring-boot-security-demo\src\main\java\com\sychen\informationapp\core\entity" />
+      <recent name="D:\GithubSpace\java\spring-boot-security-demo\src\main\java\com\sychen\informationapp\common\util" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sychen.informationapp.core.service.user" />
+      <recent name="com.sychen.informationapp.core.entity.user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sychen.informationapp.core.entity.user" />
+      <recent name="com.sans.common.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.AESUtil">
+    <configuration name="AESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sychen.informationapp.common.util.AESUtil" />
+      <module name="spring-boot-security-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sychen.informationapp.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="InformationApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-security-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sychen.informationapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sychen.informationapp" />
+      <option name="MAIN_CLASS_NAME" value="com.sychen.informationapp.InformationApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSecurityDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-security-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sans" />
+      <option name="MAIN_CLASS_NAME" value="com.sans.SpringBootSecurityDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-security-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sychen.informationapp.InformationApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP 请求.get-requests#1" />
+      <item itemvalue="JUnit.SpringBootSecurityDemoApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.InformationApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="应用程序.AESUtil" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.AESUtil" />
+        <item itemvalue="HTTP 请求.get-requests#1" />
+        <item itemvalue="JUnit.InformationApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SpringBootSecurityDemoApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="27079cb9-4645-4061-bd42-4da9d27b0d5c" name="默认变更列表" comment="" />
+      <created>1626450048159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626450048159</updated>
+      <workItem from="1626450050243" duration="3545000" />
+      <workItem from="1626493559924" duration="2016000" />
+      <workItem from="1626496871128" duration="1363000" />
+      <workItem from="1626498660100" duration="664000" />
+      <workItem from="1626575759679" duration="2067000" />
+      <workItem from="1626579062237" duration="21839000" />
+      <workItem from="1626707941190" duration="5657000" />
+      <workItem from="1626751639386" duration="5604000" />
+      <workItem from="1626840338284" duration="3566000" />
+      <workItem from="1626882231757" duration="5521000" />
+      <workItem from="1626892573743" duration="4216000" />
+      <workItem from="1626933208988" duration="5535000" />
+      <workItem from="1627282208698" duration="307000" />
+      <workItem from="1627388260574" duration="606000" />
+      <workItem from="1627456993679" duration="1321000" />
+      <workItem from="1627466925982" duration="8013000" />
+      <workItem from="1627576030693" duration="47000" />
+      <workItem from="1627827843475" duration="213000" />
+      <workItem from="1627928571052" duration="6000" />
+      <workItem from="1628860031002" duration="654000" />
+      <workItem from="1630046503064" duration="28000" />
+      <workItem from="1630046556020" duration="125000" />
+      <workItem from="1630046707247" duration="539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

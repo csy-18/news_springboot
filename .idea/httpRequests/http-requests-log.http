@@ -1,0 +1,7 @@
+GET https://httpbin.org/ip
+Accept: application/json
+
+<> 2021-07-22T152713.200.json
+
+###
+
